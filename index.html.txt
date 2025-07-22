@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coming Soon</title>
+  <style>
+    @font-face {
+      font-family: 'Freight Big Compressed';
+      src: url('fonts/FreightBigCompressed-Light.woff2') format('woff2'),
+           url('fonts/FreightBigCompressed-Light.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    body {
+      background-color: #AEB7D3;
+      color: black;
+      padding: 50px;
+      text-align: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Freight Big Compressed', sans-serif;
+    }
+
+    a {
+      color: black;
+      font-size: 1.5em;
+      text-decoration: underline;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Coming Soon</h1>
+
+  <div>
+    <a href="mailto:matt@stonehill.cpa">Email Matt</a>
+  </div>
+
+  <div>
+    <a href="#" onclick="alert('Call Matt at 970-367-9414'); return false;">Call Matt</a>
+  </div>
+</body>
+</html>
